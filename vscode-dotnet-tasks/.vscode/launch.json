@@ -20,5 +20,11 @@
             "console": "internalConsole",
             "stopAtEntry": false
         },
+        {
+            "name": "Attach to Process (ProcessName)",
+            "type": "coreclr",
+            "request": "attach",
+            "processName":"ProcessName"
+        }
     ]
 }
