@@ -11,7 +11,10 @@
                 "build",
                 "${workspaceFolder}/src/path/to/project/"
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "presentation": {
+                "reveal": "silent"
+            }
         },
         {
             "label": "run",
